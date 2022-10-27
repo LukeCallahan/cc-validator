@@ -28,7 +28,14 @@ Code: ccInputToArray(number)
 Text:
 Expected output: [4,2,0,4,0,7,0,7,6,0,4,6,5,3,2,0];
 
-Test: "It should sum all the digits and determine if it ends in a zero.
+Describe: sumArray()
+
+Test: "It should sum all the digits.
+Code: ccInputToArray(number)
+Text: sumArray(test)
+Expected output: 52
+
+Test: "It should determine if the sum ends in a zero.
 Code: ccInputToArray(number)
 Text:
-Expected output: [4,2,0,4,0,7,0,7,6,0,4,6,5,3,2,0];
+Expected output: true/false;
