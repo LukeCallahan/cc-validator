@@ -1,13 +1,12 @@
 //convert string to an array of strings
-
 function ccInputToArray (number){
   let stringArray = number.split("");
   for (let i=0; i < stringArray.length; i += 1){
     stringArray[i] = parseInt(stringArray[i]);
-    for (let j=1; j <stringArray.length; j +=2){
+  };
+  for (let j=1; j <stringArray.length; j +=2){
       stringArray[j] = stringArray[j] * 2;
-    }
-  }
+  };
   return stringArray;
 }
 window.addEventListener("load", function(){

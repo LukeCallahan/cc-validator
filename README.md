@@ -19,6 +19,6 @@ Expected output: [1,3,2,3,0,3,0,3,0,3,0];
 
 
 Test: "It should double every other value in the array.
-Code: doubleNumber("numberArray")
+Code: ccInputToArray(number)
 Text:
 Expected output: ['1','6','2','6','0','6','0','6','0','6','0'];
