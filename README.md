@@ -35,7 +35,8 @@ Code: ccInputToArray(number)
 Text: sumArray(test)
 Expected output: 52
 
-Test: "It should determine if the sum ends in a zero.
-Code: ccInputToArray(number)
+Describe: endsInZero()
+Test: "It should determine if the sum ends in a zero."
+Code: endsInZero(number)
 Text:
-Expected output: true/false;
+Expected output: console.log("This credit card is invalid);

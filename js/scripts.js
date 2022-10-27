@@ -27,6 +27,16 @@ function sumArray(array){
   return sumValue;  
 }
 
+function endsInZero(number){
+  if (parseInt(number.toString().charAt(1)) === 0){
+    console.log("This credit card is invalid");
+  } else {
+    console.log("This credit card is valid");
+  }
+}
+
+
+
 
 window.addEventListener("load", function(){
 
@@ -40,6 +50,8 @@ window.addEventListener("load", function(){
     let sum = sumArray(test);
     console.log(test);
     console.log(sum);
+    let valid = endsInZero(sum);
+    console.log(valid);
     let p = document.createElement("p");
     let div = document.querySelector("div");
     div.append(test);
