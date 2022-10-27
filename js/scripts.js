@@ -1,9 +1,12 @@
 //convert string to an array of strings
 
 function ccInputToArray (number){
-  const numberArray = number.split("");
-  return numberArray;
+  const stringArray = number.split("");
+  return stringArray;
 }
 
 ccInputToArray("443434545333344");
 
+
+
+//
