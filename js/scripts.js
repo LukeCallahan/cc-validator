@@ -10,19 +10,20 @@ function ccInputToArray (number){
   }
   return stringArray;
 }
-
 window.addEventListener("load", function(){
+
   let form = document.querySelector("form");
   let result = document.getElementById("results");
   
   form.addEventListener("submit", function(event) {
     event.preventDefault();
     const number = document.getElementById("text-input1").value;
-    console.log(number);
+    let test = ccInputToArray(number);
+    console.log(test);
     let p = document.createElement("p");
     let div = document.querySelector("div");
-    div.append(number);
-    p.append(number);
+    div.append(test);
+    // p.append(test);
 
     
   });
