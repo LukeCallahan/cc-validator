@@ -16,6 +16,18 @@ function ccInputToArray (number){
   };
   return stringArray;
 }
+function sumArray(array){
+  let sumValue = 0;
+  console.log(array);
+  array.forEach(function(element){
+    sumValue += element;
+  });
+
+  console.log(sumValue);
+  return sumValue;  
+}
+
+
 window.addEventListener("load", function(){
 
   let form = document.querySelector("form");
@@ -25,7 +37,9 @@ window.addEventListener("load", function(){
     event.preventDefault();
     const number = document.getElementById("text-input1").value;
     let test = ccInputToArray(number);
+    let sum = sumArray(test);
     console.log(test);
+    console.log(sum);
     let p = document.createElement("p");
     let div = document.querySelector("div");
     div.append(test);

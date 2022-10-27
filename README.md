@@ -27,3 +27,8 @@ Test: "It should sum the digits of the numbers that are greater than 9.
 Code: ccInputToArray(number)
 Text:
 Expected output: [4,2,0,4,0,7,0,7,6,0,4,6,5,3,2,0];
+
+Test: "It should sum all the digits and determine if it ends in a zero.
+Code: ccInputToArray(number)
+Text:
+Expected output: [4,2,0,4,0,7,0,7,6,0,4,6,5,3,2,0];
